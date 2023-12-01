@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+.h{
+color:green;
+background-color:pink;
+}
+.avatar{
+  border-radius:50%;
+}*/
+.quiz_box
+{
+  height: 80vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+.quiz_question
+{
+  height: 300px;
+  width: 70%;
+  text-align: center;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  font-size: 2rem;
+}
+.quiz_box_option
+{
+  padding: 1rem;
+  border-top: 1px;
+}
+.quiz_ul
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 0;
+  list-style-type: none;
+  color: green;
+}
+.quiz_li
+{
+  background-color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+.quiz_li:hover
+{
+  box-shadow: 1px 1px 7px purple;
 }
