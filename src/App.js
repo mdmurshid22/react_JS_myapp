@@ -85,6 +85,7 @@ function App()
 export default App;
 // import './App.css';
 // import Projects from './components/Projects';*/
+// import Questions from './components/Questions';
 import Quiz from './components/Quiz';
 import './App.css';
 function App()
@@ -94,3 +95,13 @@ function App()
     );
 }
 export default App;
+/*import UseStateArrays from './components/UseStateArrays';
+function App()
+{
+  return(
+    <>
+    <UseStateArrays/>
+    </>
+    );
+}
+export default App;*/
