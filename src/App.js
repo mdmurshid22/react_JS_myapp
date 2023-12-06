@@ -86,7 +86,7 @@ export default App;
 // import './App.css';
 // import Projects from './components/Projects';*/
 // import Questions from './components/Questions';
-import Quiz from './components/Quiz';
+/*import Quiz from './components/Quiz';
 import './App.css';
 function App()
 {
@@ -95,7 +95,7 @@ function App()
     );
 }
 export default App;
-/*import UseStateArrays from './components/UseStateArrays';
+import UseStateArrays from './components/UseStateArrays';
 function App()
 {
   return(
@@ -105,3 +105,28 @@ function App()
     );
 }
 export default App;*/
+import {useEffect,useState} from 'react';
+function App()
+{
+const [display,setDisplay]=useState(0);
+  function add_num()
+  {
+    setDisplay(display+2);
+  }
+  function sub_num()
+  {
+    setDisplay(display-1);
+  }
+  useEffect(()=>
+  {
+    console.log("Good Evening!");
+  })
+  return(
+    <>
+    <h1>{display}</h1>
+    <button onClick={add_num}>Add Button</button>
+    <button onClick={sub_num}>Sub Button</button>
+    </>
+    );
+}
+export default App;
