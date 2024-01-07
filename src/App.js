@@ -104,7 +104,7 @@ function App()
     </>
     );
 }
-export default App;*/
+export default App;
 import {useEffect,useState} from 'react';
 function App()
 {
@@ -128,5 +128,36 @@ const [display,setDisplay]=useState(0);
     <button onClick={sub_num}>Sub Button</button>
     </>
     );
+}
+export default App;
+function App()
+{
+  return(
+    <>
+    <h2>Functional Componens and Normal Function</h2>
+    </>
+    );
+}
+export default App;
+const App = () =>
+{
+  return(
+    <>
+    <h2>Function Components and Arrow Function</h2>
+    </>
+    );
+}
+export default App;*/
+import React from 'react';
+class App extends React.Component
+{
+  render()
+  {
+    return(
+      <>
+      <h2>Class Components</h2>
+      </>
+      );
+  }
 }
 export default App;
